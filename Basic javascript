@@ -1,0 +1,11 @@
+let x = 5;
+let y = x + 2;
+console.log(x);
+var x = 10;
+var y = 12;
+var z = x + y;
+console.log(z)
+let x = 4;
+let y = 5;
+let z = x + y;
+console.log(z)
