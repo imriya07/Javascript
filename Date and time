@@ -1,0 +1,32 @@
+new Date(2018,11,23,12,62,43);
+console.log(d)
+
+const d = new Date("October 13, 2014 11:13:00");
+ new Date(22,11,24);
+const djj = new Date("JANUARY, 31, 2015");
+console.log(djj);
+
+
+const dnh = new Date();
+dnh.getFullYear();
+console.log(dnh)
+
+
+
+
+const months = ["january", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+const dd = new Date();
+let month = months[dd.getMonth()];
+console.log(month);
+
+const dff = new Date();
+let ff = dff.getDate();
+let cf = dff.getMonth();
+let cd = dff.getFullYear();
+let vv = dff.getDay();
+console.log(ff);
+console.log(cf);
+console.log(cd);
+console.log(vv);
+
