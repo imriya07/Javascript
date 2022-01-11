@@ -1,0 +1,31 @@
+function MyStr(p1,p2){
+    return p1+p2;
+}
+
+MyStr(1,2);
+
+
+function toCelsius(fahrenheit) {
+  return "freanhite is " + (5/9) * (fahrenheit-32);
+}
+toCelsius(97)
+toCelsius (98)
+function addition(a,b) {
+  let x = a + b
+  return x
+}
+console.log(addition(20,8))
+function addition() {
+  return  5 
+}
+console.log(addition())
+function x() {
+  return "y"
+}
+console.log(x())
+function s() {
+  let r = 9
+  let g = 5
+  return r-g
+}
+console.log(s())
