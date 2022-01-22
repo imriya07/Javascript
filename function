@@ -1,0 +1,10 @@
+function Circle(radius,abs){
+    this.radius = radius;
+    this.abs = abs;
+    this.draw = function(){
+        console.log("running.....")
+    }
+
+}
+const circl = new Circle(3,4)
+console.log(circl)
