@@ -1,0 +1,6 @@
+arr = [1,23,44,56,77]
+let x = 0;
+for(let i = 0;i<arr.length;i++){
+x = x + arr[i];
+console.log(x)
+}
