@@ -1,0 +1,5 @@
+let ab = obj.walk.bind(obj)
+console.log(ab())
+
+const squre = (number) => number*number
+console.log(squre(6));
