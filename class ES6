@@ -1,0 +1,10 @@
+class Person{
+    constructor(name){
+        this.firstName = name;
+    }
+    walk(){
+        console.log("Inside the function",this.firstName);
+    }
+}
+let hello = new Person("Hello");
+
