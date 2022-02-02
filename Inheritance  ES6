@@ -1,0 +1,15 @@
+class Person{
+    constructor(name){
+        this.firstName = name;
+    }
+    walk(){
+        console.log("Walk");
+    }
+}
+
+class Teacher extends Person{
+    teach(){
+        console.log("Teach")
+    }
+}
+const tec = new Teacher()
