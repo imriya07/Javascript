@@ -1,0 +1,3 @@
+let text = "HELLOWORLD";
+let length = text.length; 
+console.log(text.length);
