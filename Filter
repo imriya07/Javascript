@@ -1,0 +1,6 @@
+const arr1 = [12,22,33,322]
+function isodd(y){
+    return y%2
+}
+const even = arr.filter(isodd)
+console.log(even);
