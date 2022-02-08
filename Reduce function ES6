@@ -1,0 +1,9 @@
+const arr = [1,5,8,9,6,3]
+function sumofarr(arr){
+    sum = 0
+    for(let x= 0;x< arr.length;x++){
+        sum = sum + arr[x]
+    }
+    return sum
+}
+console.log(sumofarr(arr));
