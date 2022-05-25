@@ -1,0 +1,10 @@
+let y = 1;
+let sum = 0;
+
+while(y <=100);{
+    if(counter % 2 == 0){
+        sum = sum + y;
+    }
+    y++;
+}
+console.log(sum);
