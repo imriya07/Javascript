@@ -1,0 +1,14 @@
+console.log('bar:', bar)
+  bar = 15
+  var foo = 1
+  console.log(foo, bar)
+  var bar
+ var foo = 5
+  console.log('foo:', foo)
+  var foo;
+  var bar = 10;
+  var bar;
+  console.log('bar:', bar)
+  var baz = 10
+  var baz = 12
+  console.log('baz:', baz)
