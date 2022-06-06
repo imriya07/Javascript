@@ -1,0 +1,11 @@
+function foo() {
+    function bar() {
+      return 10
+    }
+    return bar()
+    function bar() {
+      return 5
+    }
+  }
+  console.log(foo());
+
