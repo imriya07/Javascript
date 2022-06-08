@@ -1,0 +1,9 @@
+function foo() {
+    var bar = "I'm a bar variable"
+
+    function bar() {
+      return "I'm a bar function"
+    }
+    return bar()
+  }
+  console.log(foo())
