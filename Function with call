@@ -1,0 +1,10 @@
+greeting()
+  var greeting = function() {
+    console.log('Good morning')
+  }
+  greeting()
+  
+  function greeting() {
+    console.log('Good evening')
+  }
+  greeting()
