@@ -1,0 +1,10 @@
+var foo = 5
+  
+  function baz() {
+    foo = 10
+    return
+  
+    function foo() {}
+  }
+  baz()
+  console.log(foo)
