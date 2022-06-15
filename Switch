@@ -1,0 +1,22 @@
+let day;
+switch (new Date().getTime()) {
+  case 0:
+    day = "jan";
+    break;
+  case 1:
+    day = "feb";
+    break;
+  case 2:
+    day = "mar";
+    break;
+  case 4:
+    day = "may";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case  6:
+    day = "Saturday";
+    default:
+    text = "Looking forward to the Weekend";
+}
