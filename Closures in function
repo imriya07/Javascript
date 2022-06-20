@@ -1,0 +1,10 @@
+a(7)
+function a(val) {
+    var b = 5;
+    function c() {
+        console.log("hi",b,val)
+        
+    }
+    c()   
+}
+
