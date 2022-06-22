@@ -1,0 +1,14 @@
+const person = {
+    firstName:"Riya",
+    lastName:"Shree",
+    age:22,
+    fullName:function x() {
+        return this.firstName + " " + this.lastName
+        
+    }
+}
+const member={
+    firstName:"Hello",
+    lastName:"World"
+}
+ person.fullName.bind(member)();
