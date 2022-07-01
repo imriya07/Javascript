@@ -1,0 +1,10 @@
+x()
+function x() {
+    var y = 4;
+    function z() {
+        console.log("hello")
+        
+    }
+    z()
+    
+}
